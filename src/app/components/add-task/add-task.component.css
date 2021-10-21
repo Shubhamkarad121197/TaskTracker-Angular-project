@@ -1,0 +1,10 @@
+.add-form {
+    margin: 40px;
+}
+button{
+    padding: auto;
+    margin: 10px;
+}
+#day ,#text{
+    width: 100%;
+}

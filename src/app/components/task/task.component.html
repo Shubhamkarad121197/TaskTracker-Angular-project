@@ -1,0 +1,12 @@
+<div [ngClass]="{ reminder: task.reminder }" class="task">
+    <h3>{{ task.text }} 
+
+        <button class="btn btn-primary" (click)="onDelete(task)">Delete</button>
+        
+
+    </h3>
+    
+    <p>{{ task.day }}</p>
+</div>
+
+  

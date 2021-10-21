@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    
+    
+    background:linear-gradient(to right, #FF512F,#DD2476);
+    padding: 20px;
+}
+h1{
+    text-shadow:2px 2px  black;
+    font-family:'Satisfy', cursive;
+    font-size: 2.5rem;
+
+}

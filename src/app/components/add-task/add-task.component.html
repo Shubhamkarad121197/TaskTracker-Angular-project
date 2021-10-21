@@ -1,0 +1,41 @@
+<button type="button" class="btn btn-primary" (click)="toggle()">Show/Hide</button>
+<form class="add-form" (ngSubmit)="onSubmit()" *ngIf="display" >
+    <div class="form-control">
+      <label for="text" class="form-label">Task</label><br>
+      <input
+        type="text"
+        name="text"
+        id="text"
+        placeholder="Enter Text"
+        [(ngModel)]="text"
+        col
+      />
+      
+    </div>
+    
+    <div class="form-control">
+      <label for="day">Day and Time</label>
+      <br>
+      <input
+        type="text"
+        name="day"
+        id="day"
+        placeholder="Enter day"
+        [(ngModel)]="day"
+      />
+    </div>
+    <div class="form-control form-control-check">
+      <label for="reminder">Reminder</label>
+      <br>
+      <input
+        type="checkbox"
+        name="reminder"
+        id="reminder"
+        [(ngModel)]="reminder"
+      />
+    </div>
+    <button class="btn btn-primary" type="submit">Save Task</button>
+    <button class="btn btn-primary" type="reset">Reset</button>
+    
+   
+  </form>
